@@ -3,3 +3,40 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: rgb(91, 205, 157);
+    background-color: blanchedalmond;
+   
+}
+    
+h1{
+     display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.container{
+    width: 1000px;
+    height: 750px;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    margin: 20px auto;
+
+
+}
+
+.calculator{
+    margin: 0 auto;
+    width: 50%;
+    height: 75%;
+    background-color: brown;
+    position: relative;
+    top: 90px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0;
+}
