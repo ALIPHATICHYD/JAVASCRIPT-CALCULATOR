@@ -1,7 +1,7 @@
 *{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -21,9 +21,10 @@ h1{
 
 
 .container{
-    width: 1000px;
-    height: 750px;
+    width: 600px;
+    height: 800px;
     background-image: url(background.jpg);
+    
     background-repeat: no-repeat;
     margin: 20px auto;
 
@@ -32,11 +33,71 @@ h1{
 
 .calculator{
     margin: 0 auto;
-    width: 50%;
-    height: 75%;
+    width: 75%;
+    height: 75px;
     background-color: brown;
     position: relative;
     top: 90px;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0;
+}
+
+.result{
+    height: 120px;
+
+}
+
+.keyboard{
+    height: 600px;
+    width: 400px;
+     
+}
+
+.history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+
+.output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    float: left;
+    border-radius: 50px;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number, .empty{
+    background-color: brown;
+}
+
+.number, .operator{
+    cursor: pointer;
+}
+
+.operator:active, .number:active{
+    font-size: 13px;
+}
+
+.operator:focus, .number:focus, .empty:focus{
+    outline: 0;
+
+}
+
+button:nth-child(4){
+    font-size: 20px;
+    background-color: #20b2aa;
 }
